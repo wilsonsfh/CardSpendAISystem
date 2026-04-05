@@ -60,7 +60,7 @@ recommend(merchant, amount, cards)
 - Update queue is in-memory — resets on page refresh (no backend)
 - Fuzzy match thresholds (≥85 confident, 60–84 uncertain), inspired by thefuzz python library, idiomatically implemented in TypeScript.
 
-**Why TypeScript:** Easier to scaffold small-scale projects with Vite + React ecosystem vs Python (no virtual env setup, dependency conflicts, or backend infrastructure needed). Single language across engine logic and UI reduces context switching. Ready-to-run dev server in seconds.
+**Why TypeScript:** UI is React (requires JavaScript). Keeping engine logic in the same language (TypeScript) eliminates context-switching overhead in a 2-hour prototype. Client-side-only design avoids backend infrastructure entirely.
 
 ## Tradeoffs of features
 
