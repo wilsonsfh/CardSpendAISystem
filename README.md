@@ -60,7 +60,7 @@ recommend(merchant, amount, cards)
 - Update queue is in-memory — resets on page refresh (no backend)
 - Fuzzy match thresholds (≥85 confident, 60–84 uncertain), inspired by thefuzz python library, idiomatically implemented in TypeScript.
 
-**Why TypeScript:** React UI runs in the browser, which only executes JavaScript (or TypeScript compiled to JavaScript). Python has no browser runtime. Using TypeScript for both engine + UI keeps one language throughout. Alternative: Python backend + JavaScript frontend = context switching (not viable for 2-hour prototype).
+**Why TypeScript:** React UI runs in the browser, which only executes JavaScript (or TypeScript compiled to JavaScript). Python has no browser runtime. Using TypeScript for both engine + UI keeps one language throughout. Alternative: Python backend + JavaScript frontend (context switching overhead).
 
 ## Tradeoffs of features
 

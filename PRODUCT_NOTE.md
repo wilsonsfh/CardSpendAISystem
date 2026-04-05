@@ -1,4 +1,9 @@
 # Product Note — CardSpendAI
+## Vibecode Usage
+- Build README.md on the architectural and request flow as described in prompt
+- Used to make and improve UI with iterations on base UI created, including adding drag-and-drop functionality for legend and bottom panel
+- Used to improve the prompt for LLM categorization
+- Used to improve the logic for merchant matching and confidence scoring
 
 ## Failure Modes
 
