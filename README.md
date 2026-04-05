@@ -60,6 +60,8 @@ recommend(merchant, amount, cards)
 - Update queue is in-memory — resets on page refresh (no backend)
 - Fuzzy match thresholds (≥85 confident, 60–84 uncertain), inspired by thefuzz python library, idiomatically implemented in TypeScript.
 
+**Why TypeScript:** Type safety catches bugs at compile time (not runtime), reducing iteration cycles. Interfaces for Card/Merchant/SpendEvent act as self-documenting contracts, speeding up feature additions. Critical for a prototype where fast feedback loops matter more than raw performance.
+
 ## Tradeoffs of features
 
 | Skipped/Minimised | Impact |
